@@ -1,0 +1,127 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = Blog.Client
+build_property.RootNamespace = Blog.Client
+build_property.ProjectDir = C:\Users\asus\Desktop\SimpleBlog\Blog\Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\asus\Desktop\SimpleBlog\Blog\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/Pages/Authentication.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/Pages/Author.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/Pages/Comments/Comments.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWVudHNcQ29tbWVudHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/Pages/Contact.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/Pages/OrderDetails/CreateOrder.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJEZXRhaWxzXENyZWF0ZU9yZGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/Pages/OrderDetails/EditOrder.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJEZXRhaWxzXEVkaXRPcmRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/Pages/OrderDetails/Order.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJEZXRhaWxzXE9yZGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/Pages/Post/CreatePost.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdFxDcmVhdGVQb3N0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/Pages/Post/EditPost.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdFxFZGl0UG9zdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/Pages/Post/Post.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdFxQb3N0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/Pages/Post/Posts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdFxQb3N0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/Pages/Product/CreateProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxDcmVhdGVQcm9kdWN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/Pages/Product/EditProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxFZGl0UHJvZHVjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/Pages/Product/Product.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxQcm9kdWN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/Pages/Project/CreateProject.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamVjdFxDcmVhdGVQcm9qZWN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/Pages/Project/EditProject.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamVjdFxFZGl0UHJvamVjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/Pages/Project/Project.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamVjdFxQcm9qZWN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/Shared/LoginDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/Shared/Pagination.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhZ2luYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/Shared/RedirectToLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFJlZGlyZWN0VG9Mb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/Shared/SearchForm.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNlYXJjaEZvcm0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-z5dciqaa7r
+
+[C:/Users/asus/Desktop/SimpleBlog/Blog/Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-e8tr09tsa0

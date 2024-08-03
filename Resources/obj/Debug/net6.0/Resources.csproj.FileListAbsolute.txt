@@ -1,0 +1,15 @@
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Resources\bin\Debug\net6.0\Resources.deps.json
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Resources\bin\Debug\net6.0\Resources.dll
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Resources\bin\Debug\net6.0\Resources.pdb
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Resources\obj\Debug\net6.0\Resources.csproj.AssemblyReference.cache
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Resources\obj\Debug\net6.0\Resources.Messages.resources
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Resources\obj\Debug\net6.0\Resources.ValidationErrors.resources
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Resources\obj\Debug\net6.0\Resources.csproj.GenerateResource.cache
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Resources\obj\Debug\net6.0\Resources.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Resources\obj\Debug\net6.0\Resources.AssemblyInfoInputs.cache
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Resources\obj\Debug\net6.0\Resources.AssemblyInfo.cs
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Resources\obj\Debug\net6.0\Resources.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Resources\obj\Debug\net6.0\Resources.dll
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Resources\obj\Debug\net6.0\refint\Resources.dll
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Resources\obj\Debug\net6.0\Resources.pdb
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Resources\obj\Debug\net6.0\ref\Resources.dll

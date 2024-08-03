@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\asus\\Desktop\\SimpleBlog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F706850-240E-4EF4-ACAC-0CFBB05DD3BD}|Blog.Infrastructure\\Blog.Infrastructure.csproj|c:\\users\\asus\\desktop\\simpleblog\\blog.infrastructure\\persistence\\applicationdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F706850-240E-4EF4-ACAC-0CFBB05DD3BD}|Blog.Infrastructure\\Blog.Infrastructure.csproj|solutionrelative:blog.infrastructure\\persistence\\applicationdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F706850-240E-4EF4-ACAC-0CFBB05DD3BD}|Blog.Infrastructure\\Blog.Infrastructure.csproj|c:\\users\\asus\\desktop\\simpleblog\\blog.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F706850-240E-4EF4-ACAC-0CFBB05DD3BD}|Blog.Infrastructure\\Blog.Infrastructure.csproj|solutionrelative:blog.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7310609-A3A1-4D67-B750-E7E85057C748}|Blog\\Client\\Blog.Client.csproj|c:\\users\\asus\\desktop\\simpleblog\\blog\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7310609-A3A1-4D67-B750-E7E85057C748}|Blog\\Client\\Blog.Client.csproj|solutionrelative:blog\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A2FF132-9433-4767-A861-2856B476BEC3}|Blog\\Server\\Blog.Server.csproj|c:\\users\\asus\\desktop\\simpleblog\\blog\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A2FF132-9433-4767-A861-2856B476BEC3}|Blog\\Server\\Blog.Server.csproj|solutionrelative:blog\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A2FF132-9433-4767-A861-2856B476BEC3}|Blog\\Server\\Blog.Server.csproj|c:\\users\\asus\\desktop\\simpleblog\\blog\\server\\bundleconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A2FF132-9433-4767-A861-2856B476BEC3}|Blog\\Server\\Blog.Server.csproj|solutionrelative:blog\\server\\bundleconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A2FF132-9433-4767-A861-2856B476BEC3}|Blog\\Server\\Blog.Server.csproj|c:\\users\\asus\\desktop\\simpleblog\\blog\\server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A2FF132-9433-4767-A861-2856B476BEC3}|Blog\\Server\\Blog.Server.csproj|solutionrelative:blog\\server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A2FF132-9433-4767-A861-2856B476BEC3}|Blog\\Server\\Blog.Server.csproj|c:\\users\\asus\\desktop\\simpleblog\\blog\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A2FF132-9433-4767-A861-2856B476BEC3}|Blog\\Server\\Blog.Server.csproj|solutionrelative:blog\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContextSeed.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\SimpleBlog\\Blog.Infrastructure\\Persistence\\ApplicationDbContextSeed.cs",
+              "RelativeDocumentMoniker": "Blog.Infrastructure\\Persistence\\ApplicationDbContextSeed.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\SimpleBlog\\Blog.Infrastructure\\Persistence\\ApplicationDbContextSeed.cs",
+              "RelativeToolTip": "Blog.Infrastructure\\Persistence\\ApplicationDbContextSeed.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T21:02:27.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\SimpleBlog\\Blog.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Blog.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\SimpleBlog\\Blog.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Blog.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T21:02:25.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\SimpleBlog\\Blog\\Client\\Program.cs",
+              "RelativeDocumentMoniker": "Blog\\Client\\Program.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\SimpleBlog\\Blog\\Client\\Program.cs",
+              "RelativeToolTip": "Blog\\Client\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T21:01:22.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\SimpleBlog\\Blog\\Server\\Program.cs",
+              "RelativeDocumentMoniker": "Blog\\Server\\Program.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\SimpleBlog\\Blog\\Server\\Program.cs",
+              "RelativeToolTip": "Blog\\Server\\Program.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T21:00:40.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "bundleconfig.json",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\SimpleBlog\\Blog\\Server\\bundleconfig.json",
+              "RelativeDocumentMoniker": "Blog\\Server\\bundleconfig.json",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\SimpleBlog\\Blog\\Server\\bundleconfig.json",
+              "RelativeToolTip": "Blog\\Server\\bundleconfig.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-03T21:00:38.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\SimpleBlog\\Blog\\Server\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Blog\\Server\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\SimpleBlog\\Blog\\Server\\appsettings.Development.json",
+              "RelativeToolTip": "Blog\\Server\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-03T21:00:36.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\SimpleBlog\\Blog\\Server\\appsettings.json",
+              "RelativeDocumentMoniker": "Blog\\Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\SimpleBlog\\Blog\\Server\\appsettings.json",
+              "RelativeToolTip": "Blog\\Server\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-03T21:00:29.96Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

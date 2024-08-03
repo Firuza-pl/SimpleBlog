@@ -1,0 +1,35 @@
+﻿@page "/edit-project/{ProjectId:guid}"
+@inherits EditProjectBase
+
+<PageTitle>Edit Project</PageTitle>
+
+<div class="independent-form">
+    <h2>Edit Project</h2>
+
+    <EditForm Model="@editExistingProject" OnValidSubmit="@HandleValidSubmit">
+        <div class="independent-form-errors">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+        </div>
+        <div class="editor-label">
+            <label> Title </label>
+        </div>
+
+        <div class="editor-field">
+            <InputText @bind-Value="editExistingProject.Title" style="width:400px" />
+        </div>
+
+        <div class="editor-label">
+            <label> Description </label>
+        </div>
+
+        <div class="editor-label">
+            <InputTextArea @bind-Value="editExistingProject.Description" row="10" cols="70" />
+        </div>
+        <br />
+        <div class="independent-form-submit">
+            <input type="submit" value="Save" />
+        </div>
+    </EditForm>
+
+</div>

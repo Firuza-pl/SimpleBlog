@@ -1,0 +1,34 @@
+﻿@page "/project"
+@inherits ProjectBase
+
+<PageTitle> Project List </PageTitle>
+
+
+@foreach (var project in _projectList)
+{
+    <article class="single-container">
+        <h2 class="blog-subject">
+            @project.Title
+        </h2>
+        <br />
+        <p>@((MarkupString)project.Description)</p>
+        <br />
+        <div class="f left grey">
+            @project.CreationDate.ToShortDateString()
+            &nbsp;
+        </div>
+        <div class="fright"></div>
+        <div class="more">
+            <a href="/project/@project.ProjectId">Details</a>
+        </div>
+        <div class="hidden-links @(isUserAuthenticated? "visible":"hidden")">
+            <a href="/edit-project/@project.ProjectId">Edit</a>
+            <span> | </span>
+            <a href="" @onclick="()=>DeleteProject(project.ProjectId)">Delete</a>
+        </div>
+    </article>
+    <br />
+    <br />
+}
+
+

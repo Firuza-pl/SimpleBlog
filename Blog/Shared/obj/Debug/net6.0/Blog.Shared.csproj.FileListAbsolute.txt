@@ -1,0 +1,15 @@
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Blog\Shared\bin\Debug\net6.0\Blog.Shared.deps.json
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Blog\Shared\bin\Debug\net6.0\Blog.Shared.dll
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Blog\Shared\bin\Debug\net6.0\Blog.Shared.pdb
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Blog\Shared\bin\Debug\net6.0\Resources.dll
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Blog\Shared\bin\Debug\net6.0\Resources.pdb
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Blog\Shared\obj\Debug\net6.0\Blog.Shared.csproj.AssemblyReference.cache
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Blog\Shared\obj\Debug\net6.0\Blog.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Blog\Shared\obj\Debug\net6.0\Blog.Shared.AssemblyInfoInputs.cache
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Blog\Shared\obj\Debug\net6.0\Blog.Shared.AssemblyInfo.cs
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Blog\Shared\obj\Debug\net6.0\Blog.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Blog\Shared\obj\Debug\net6.0\Blog.Shared.csproj.CopyComplete
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Blog\Shared\obj\Debug\net6.0\Blog.Shared.dll
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Blog\Shared\obj\Debug\net6.0\refint\Blog.Shared.dll
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Blog\Shared\obj\Debug\net6.0\Blog.Shared.pdb
+C:\Users\Lenovo\OneDrive\Desktop\simple-blog\Blog\Blog\Shared\obj\Debug\net6.0\ref\Blog.Shared.dll

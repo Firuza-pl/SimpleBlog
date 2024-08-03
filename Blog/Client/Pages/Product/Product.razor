@@ -1,0 +1,49 @@
+﻿@page "/product"
+@inherits ProductBase
+
+
+<PageTitle> Project List </PageTitle>
+
+
+@foreach (var p in _productList)
+{
+    <article class="single-container">
+        <h2 class="blog-subject">
+            Code: @p.ProductCode
+        </h2>
+        <br />
+
+        <h5>
+            Name: 
+        </h5>
+        <p>@p.ProductName</p>
+        <h2>
+           Price:
+        </h2>
+        <p> @p.ListPrice</p>
+        <h2>
+            Description: 
+        </h2>
+        <p>@((MarkupString)p.Description)</p>
+        <br />
+        <div class="f left grey">
+          Creation Date:  @p.CreationDate
+            &nbsp;
+        </div>
+        <div class="f left grey">
+           Modification Date: @p.ModificationDate
+            &nbsp;
+        </div>
+        <div class="more">
+            <a href="/product/@p.ProductId">Details</a>
+        </div>
+        <div class="hidden-links @(isUserAuthenticated? "visible":"hidden")">
+            <a href="/edit-product/@p.ProductId">Edit</a>
+            <span> | </span>
+            <a href="" @onclick="()=>DeleteProduct(p.ProductId)">Delete</a>
+        </div>
+    </article>
+    <br />
+    <br />
+}
+

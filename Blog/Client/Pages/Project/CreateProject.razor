@@ -1,0 +1,51 @@
+﻿@page "/create-project"
+@inherits CreateProjectBase
+@using Blog.Client.HttpClients
+@using Blog.Shared.DTOs
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@using Blog.Shared
+@using Resources
+@attribute [Authorize]
+
+<PageTitle>Create Project</PageTitle>
+
+<div class="independent-form">
+    <h2>Create Project</h2>
+
+    <EditForm Model="@newProject" OnValidSubmit="@HandleValidSubmit">
+        <div class="independent-form-errors">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+        </div>
+        <div class="editor-label">
+            <label>Title</label>
+        </div>
+        <div class="editor-field">
+            <InputText @bind-Value="newProject.Title" style="width:400px"></InputText>
+        </div>
+        <div class="editor-label">
+            <label>Description</label>
+        </div>
+        <div class="editor-field">
+            <InputTextArea @bind-Value="newProject.Description" rows="10" cols="70"></InputTextArea>
+        </div>
+        <hr />
+        <div class="editor-field">
+            <input type="submit" value="Save" />
+        </div>
+    </EditForm>
+</div>
+
+@*@code{
+        public CreateProjectDTO newProject = new CreateProjectDTO();
+
+        public async Task HandleValidSubmit()
+        { 
+            await _projectHttpClient.CreateProjectAsync(newProject);
+
+            _toastService.ShowSuccess(Messages.PostSaved, Messages.Success);
+            _navigationManager.NavigateTo("/Project");
+        }
+
+}*@

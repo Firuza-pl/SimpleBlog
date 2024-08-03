@@ -1,0 +1,60 @@
+﻿@page "/edit-product/{ProductId:guid}"
+@inherits EditProductBase
+
+<PageTitle>Edit Product Page</PageTitle>
+
+<div class="row">
+    <div class="independent-form">
+        <div class="col-md-12">
+            <h2>Edit Product </h2>
+        </div>
+        <EditForm Model="@editExistingPro" OnValidSubmit="@HandleValidSubmit">
+            <div class="independent-form-errors">
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+            </div>
+            <div class="col-md-6">
+                <div class="editor-label">
+                    <label>Code</label>
+                </div>
+                <div class="editor-field">
+                    <InputText @bind-Value="editExistingPro.ProductCode" style="width:100%"></InputText>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="editor-label">
+                    <label>Description</label>
+                </div>
+                <div class="editor-field">
+                    <InputText @bind-Value="editExistingPro.Description" rows="10" cols="70" style="width:100%"></InputText>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="editor-label">
+                    <label>Product Name</label>
+                </div>
+                <div class="editor-field">
+                    <InputText @bind-Value="editExistingPro.ProductName" style="width:100%"></InputText>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="editor-label">
+                    <label>List Price</label>
+                </div>
+                <div class="editor-field">
+                    <InputText @bind-Value="editExistingPro.ListPrice" style="width:100%"></InputText>
+                </div>
+            </div>
+            <hr />
+
+            <div class="col-md-6">
+                <div class="editor-field">
+                    <input type="submit" value="Save" />
+                </div>
+            </div>
+
+        </EditForm>
+    </div>
+</div>

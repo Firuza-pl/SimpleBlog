@@ -1,0 +1,64 @@
+﻿@page "/create-product"
+@inherits CreateProductBase
+@using Blog.Client.HttpClients
+@using Blog.Shared.DTOs
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@using Blog.Shared
+@using Resources
+
+<div class="row">
+    <div class="independent-form">
+        <div class="col-md-12">
+            <h2>Create Product </h2>
+        </div>
+        <EditForm Model="@newProduct" OnValidSubmit="@HandleValidSubmit">
+            <div class="independent-form-errors">
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+            </div>
+            <div class="col-md-6">
+                <div class="editor-label">
+                    <label>Code</label>
+                </div>
+                <div class="editor-field">
+                    <InputText @bind-Value="newProduct.ProductCode" style="width:100%"></InputText>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="editor-label">
+                    <label>Description</label>
+                </div>
+                <div class="editor-field">
+                    <InputText @bind-Value="newProduct.Description" rows="10" cols="70" style="width:100%"></InputText>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="editor-label">
+                    <label>Product Name</label>
+                </div>
+                <div class="editor-field">
+                    <InputText @bind-Value="newProduct.ProductName" style="width:100%"></InputText>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="editor-label">
+                    <label>List Price</label>
+                </div>
+                <div class="editor-field">
+                    <InputText @bind-Value="newProduct.ListPrice" style="width:100%"></InputText>
+                </div>
+            </div>
+                 <hr />
+
+            <div class="col-md-6">
+            <div class="editor-field">
+                <input type="submit" value="Save" />
+            </div>
+            </div>
+
+        </EditForm>
+    </div>
+</div>

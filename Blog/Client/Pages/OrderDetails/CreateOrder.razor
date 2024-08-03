@@ -1,0 +1,71 @@
+﻿@page "/create-order"
+@using Blog.Client.HttpClients
+@using Blog.Shared.DTOs
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@using Blog.Shared
+@using Resources
+
+@inherits CreateOrderBase
+
+
+<div class="row">
+    <div class="independent-form">
+        <div class="col-md-12">
+            <h2>Create Order for Product </h2>
+        </div>
+        <EditForm Model="@newOrder" OnValidSubmit="@HandleValidSubmit">
+            <div class="independent-form-errors">
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+            </div>
+            <div class="col-md-6">
+                <div class="editor-label">
+                    <label>Product Name</label>
+                </div>
+                <div class="editor-field">
+                    <InputSelect @bind-Value="ProductId" style="width:100%">
+                        @foreach (var p in _productList)
+                        {
+                            <option value="@p.ProductId">@p.ProductName</option> <!-- Assuming ProductName exists -->
+                        }
+                    </InputSelect>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="editor-label">
+                    <label>Order Quantity</label>
+                </div>
+                <div class="editor-field">
+                    <InputNumber @bind-Value="newOrder.Quantity" rows="10" cols="70" style="width:100%"></InputNumber>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="editor-label">
+                    <label>Order Unit Price</label>
+                </div>
+                <div class="editor-field">
+                    <InputNumber @bind-Value="newOrder.UnitPrice" style="width:100%"></InputNumber>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="editor-label">
+                    <label>Order Date</label>
+                </div>
+                <div class="editor-field">
+                    <InputDate @bind-Value="newOrder.ShippedDate" style="width:100%"></InputDate>
+                </div>
+            </div>
+            <hr />
+
+            <div class="col-md-6">
+                <div class="editor-field">
+                    <input type="submit" value="Save" />
+                </div>
+            </div>
+
+        </EditForm>
+    </div>
+</div>
